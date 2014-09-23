@@ -1,0 +1,34 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/normalize.css">
+    </head>
+    <body>
+		<div hidden>
+			// block
+			function() {
+				this is not real code
+				but let's pretend it's javascript
+			}
+
+			// block
+			var foo = stuff;
+			and so on;
+		</div>
+
+		<pre id="output"></pre>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="js/reno.js"></script>
+
+	    <script type="text/javascript">
+		    type($('div[hidden]').text(), $('#output'));
+	    </script>
+
+    </body>
+</html>
